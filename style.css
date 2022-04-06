@@ -1,0 +1,66 @@
+body {
+  background-image: radial-gradient(
+    circle,
+    rgba(5, 8, 114, 1),
+    rgba(7, 3, 53, 1)
+  );
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  /* color: #defaf9; */
+  font-family: "Gowun Dodum", sans-serif;
+  
+}
+.weather{
+
+   color: #defaf9;
+   font-size: 22px;
+}
+.weather_search {
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 20px;
+  color: inherit;
+  /* color: #defaf9; */
+  margin-bottom: 20px;
+  color: #defaf9;
+  margin-top: 20px;
+}
+input::placeholder {
+  color: #fff;
+}
+.weather_image {
+   width:200px;
+  
+ }
+ .weather_indicater::before {
+   content: "";
+   display: inline-block;
+   vertical-align: middle;
+   width: 30px;
+   height: 30px;
+   background-size: cover;
+   margin-right: 10px;
+ }
+ 
+ .weather_indicater--humidity::before {
+   background-image: url(../images/humidity.png);
+ }
+ 
+ .weather_indicater--wind::before {
+   background-image: url(../images/wind.png);
+ }
+ 
+ .weather_indicater--pressure::before {
+   background-image: url(../images/pressure.png);
+ }
+ /* .weather_forecast_item
+ {
+  font-size: larger;
+ }
+  */
+
+  
+  
